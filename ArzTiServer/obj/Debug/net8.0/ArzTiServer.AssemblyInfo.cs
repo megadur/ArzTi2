@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArzTiServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b256773678b77d0c8ea410cd5b775eafabcdf6a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c6fd0c6b08530ce9efa2a5935f391e3564a7f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArzTiServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArzTiServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

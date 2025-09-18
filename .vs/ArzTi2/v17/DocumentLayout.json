@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}|ArzTiServer.Domain\\ArzTiServer.Domain.csproj|c:\\data\\code\\comp\\gfal\\arzti2\\arztiserver.domain\\repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}|ArzTiServer.Domain\\ArzTiServer.Domain.csproj|solutionrelative:arztiserver.domain\\repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A058E108-0F71-E3F6-527D-8812A9C4D679}|ArzTiServer.Api\\src\\ArzTiServer.Api\\ArzTiServer.Api.Contracts.csproj|c:\\data\\code\\comp\\gfal\\arzti2\\arztiserver.api\\src\\arztiserver.api\\services\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A058E108-0F71-E3F6-527D-8812A9C4D679}|ArzTiServer.Api\\src\\ArzTiServer.Api\\ArzTiServer.Api.Contracts.csproj|solutionrelative:arztiserver.api\\src\\arztiserver.api\\services\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0161E34-AFD4-4D5A-82B6-4E0DB9112092}|ArzTiServer\\ArzTiServer.csproj|c:\\data\\code\\comp\\gfal\\arzti2\\arztiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0161E34-AFD4-4D5A-82B6-4E0DB9112092}|ArzTiServer\\ArzTiServer.csproj|solutionrelative:arztiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 178,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,45 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PrescriptionRepository.cs",
-              "DocumentMoniker": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Domain\\Repositories\\PrescriptionRepository.cs",
-              "RelativeDocumentMoniker": "ArzTiServer.Domain\\Repositories\\PrescriptionRepository.cs",
-              "ToolTip": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Domain\\Repositories\\PrescriptionRepository.cs",
-              "RelativeToolTip": "ArzTiServer.Domain\\Repositories\\PrescriptionRepository.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAiwEEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:44:10.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrescriptionService.cs",
-              "DocumentMoniker": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Api\\src\\ArzTiServer.Api\\Services\\PrescriptionService.cs",
-              "RelativeDocumentMoniker": "ArzTiServer.Api\\src\\ArzTiServer.Api\\Services\\PrescriptionService.cs",
-              "ToolTip": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Api\\src\\ArzTiServer.Api\\Services\\PrescriptionService.cs",
-              "RelativeToolTip": "ArzTiServer.Api\\src\\ArzTiServer.Api\\Services\\PrescriptionService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAASwBkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:43:16.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer\\Program.cs",
-              "RelativeDocumentMoniker": "ArzTiServer\\Program.cs",
-              "ToolTip": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer\\Program.cs",
-              "RelativeToolTip": "ArzTiServer\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAASwBYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:42:55.54Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzTiServer.Api.Contracts",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzTiServer.Domain", "ArzTiServer.Domain\ArzTiServer.Domain.csproj", "{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzTiServer.Api.Tests", "ArzTiServer.Api.Tests\ArzTiServer.Api.Tests.csproj", "{44A90DD5-8E63-D920-B01B-40375AA0EFF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A90DD5-8E63-D920-B01B-40375AA0EFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A90DD5-8E63-D920-B01B-40375AA0EFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A90DD5-8E63-D920-B01B-40375AA0EFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A90DD5-8E63-D920-B01B-40375AA0EFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
