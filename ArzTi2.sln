@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzTiServer", "ArzTiServer\ArzTiServer.csproj", "{D0161E34-AFD4-4D5A-82B6-4E0DB9112092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzTiServer.Api.Contracts", "ArzTiServer.Api\src\ArzTiServer.Api\ArzTiServer.Api.Contracts.csproj", "{A058E108-0F71-E3F6-527D-8812A9C4D679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArzTiServer.Domain", "ArzTiServer.Domain\ArzTiServer.Domain.csproj", "{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D0161E34-AFD4-4D5A-82B6-4E0DB9112092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0161E34-AFD4-4D5A-82B6-4E0DB9112092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0161E34-AFD4-4D5A-82B6-4E0DB9112092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A058E108-0F71-E3F6-527D-8812A9C4D679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A058E108-0F71-E3F6-527D-8812A9C4D679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A058E108-0F71-E3F6-527D-8812A9C4D679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A058E108-0F71-E3F6-527D-8812A9C4D679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A345114F-E4B8-25CA-6E99-3BF658B4A2FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

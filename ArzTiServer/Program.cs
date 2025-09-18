@@ -1,4 +1,7 @@
 
+using ArzTiServer.Api.Services;
+using ArzTiServer.Domain.Repositories;
+
 namespace ArzTi2
 {
     public class Program
@@ -13,7 +16,8 @@ namespace ArzTi2
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+builder.Services.AddScoped<IPrescriptionRepository, PrescriptionRepository>();
+builder.Services.AddScoped<IPrescriptionService, PrescriptionService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

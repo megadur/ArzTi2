@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ArzTiServer.Api\src\ArzTiServer.Api\ArzTiServer.Api.Contracts.csproj" />
+    <ProjectReference Include="..\ArzTiServer.Domain\ArzTiServer.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

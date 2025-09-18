@@ -5409,11 +5409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\data\\code\\comp\\GfAL\\ArzTi\\ArzTiServer.Domain\\ArzTiServer.Domain.csproj",
+      "projectUniqueName": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Domain\\ArzTiServer.Domain.csproj",
       "projectName": "ArzTiServer.Domain",
-      "projectPath": "C:\\data\\code\\comp\\GfAL\\ArzTi\\ArzTiServer.Domain\\ArzTiServer.Domain.csproj",
+      "projectPath": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Domain\\ArzTiServer.Domain.csproj",
       "packagesPath": "C:\\Users\\DonTillo\\.nuget\\packages\\",
-      "outputPath": "C:\\data\\code\\comp\\GfAL\\ArzTi\\ArzTiServer.Domain\\obj\\",
+      "outputPath": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

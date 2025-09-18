@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7N+gvmKLzbA=",
+  "dgSpecHash": "Sjq0fpYMzl8=",
   "success": true,
-  "projectFilePath": "C:\\data\\code\\comp\\GfAL\\ArzTi\\ArzTiServer.Domain\\ArzTiServer.Domain.csproj",
+  "projectFilePath": "C:\\data\\code\\comp\\GfAL\\ArzTi2\\ArzTiServer.Domain\\ArzTiServer.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DonTillo\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "C:\\Users\\DonTillo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ArzTiServer.Domain.Model.ApoTi;
+using Microsoft.EntityFrameworkCore;
 
 namespace ArzTiServer.Domain.Repositories
 {
