@@ -10,8 +10,18 @@ using System.Threading.Tasks;
 
 namespace ArzTiServer.Api.Authentication
 {
+    /// <summary>
+    /// Handles Basic Authentication for the API.
+    /// </summary>
     public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="BasicAuthenticationHandler"/> class.
+        /// </summary>
+        /// <param name="options">The options monitor for authentication scheme options.</param>
+        /// <param name="logger">The logger factory.</param>
+        /// <param name="encoder">The URL encoder.</param>
+        /// <param name="clock">The system clock.</param>
         public BasicAuthenticationHandler(
             IOptionsMonitor<AuthenticationSchemeOptions> options,
             ILoggerFactory logger,
