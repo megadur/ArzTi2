@@ -9,7 +9,8 @@ Project Brief: ArzTi2 Webservice
 - Each prescription has a technical key (UUID) and a business key.
 - API requirements:
 	1. Retrieve all new prescriptions where TransferArz=false.
-	2. Transfer the data for copayment mediation.
+	2. Transfer the data for insurance mediation.
 	3. Mark prescriptions as read (TransferArz=true) after data transfer.
-	4. After calculation, set their status to RezeptStatus=ABGERECHNET.
+	4. After transfer to the Apotheken-Rechenzentrum (ARZ) all calculations for insurance mediation are done
+	5. After all calculation are finished, set their status to RezeptStatus=ABGERECHNET.
 - Multitenancy: The ArzSw database provides the connection string for each client.
