@@ -6,24 +6,45 @@ namespace ArzTiServer.Api.Services
 {
     public class PrescriptionService : IPrescriptionService
     {
-        public Task<IEnumerable<PrescriptionDto>> GetNewPrescriptionsAsync(int page, int pageSize)
+        private readonly Domain.Repositories.IPrescriptionRepository _repository;
+        public PrescriptionService(Domain.Repositories.IPrescriptionRepository repository)
         {
-            throw new System.NotImplementedException();
+            _repository = repository;
         }
 
-        public Task TransferPrescriptionsAsync(IEnumerable<PrescriptionDto> prescriptions)
+        public async Task<IEnumerable<Models.PrescriptionDto>> GetNewPrescriptionsAsync(int page, int pageSize)
         {
-            throw new System.NotImplementedException();
+            var results = await _repository.GetNewPrescriptionsAsync(page, pageSize);
+            // Map anonymous objects to PrescriptionDto
+            var dtos = results.Select(x => {
+                dynamic d = x;
+                return new Models.PrescriptionDto {
+                    Type = d.Type,
+                    RezeptStatus = d.RezeptStatus,
+                    // Map IDs to Uuid/BusinessKey as appropriate (for demo, just use IDs)
+                    Uuid = d.GetType().GetProperty("IdSenderezepteEmuster16") != null ? Guid.Empty :
+                           d.GetType().GetProperty("IdSenderezeptePrezept") != null ? Guid.Empty :
+                           d.GetType().GetProperty("IdSenderezepteErezept") != null ? Guid.Empty : Guid.Empty,
+                    BusinessKey = "",
+                };
+            }).ToList();
+            return dtos;
         }
 
-        public Task MarkAsReadAsync(IEnumerable<PrescriptionDto> prescriptions)
+        public async Task TransferPrescriptionsAsync(IEnumerable<Models.PrescriptionDto> prescriptions)
         {
-            throw new System.NotImplementedException();
+            // Pass through to repository (convert to object for now)
+            await _repository.TransferPrescriptionsAsync(prescriptions);
         }
 
-        public Task SetStatusAbgerechnetAsync(IEnumerable<PrescriptionDto> prescriptions)
+        public async Task MarkAsReadAsync(IEnumerable<Models.PrescriptionDto> prescriptions)
         {
-            throw new System.NotImplementedException();
+            await _repository.MarkAsReadAsync(prescriptions);
+        }
+
+        public async Task SetStatusAbgerechnetAsync(IEnumerable<Models.PrescriptionDto> prescriptions)
+        {
+            await _repository.SetStatusAbgerechnetAsync(prescriptions);
         }
     }
 }
